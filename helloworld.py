@@ -50,4 +50,15 @@ print (cars)
 
 # List - finding legnth
 print (len(cars))
-ein test für github
+
+# for loop a list
+print "=========-========="
+cars = ['BMW', 'VW', 'Opel', 'Porsche']
+for car in cars:
+  print(car)
+
+for car in cars:
+  print(car.title() + ", sehr cooles Auto!")
+  print("I cant wait to see the next car, " + car.title() + ".\n")
+
+#Page 61
